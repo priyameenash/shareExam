@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <table width = "100%" border = "0">
+         
+         <tr valign = "top">
+            <td bgcolor = "#aaa" Width = "20%">
+               <b>Menu</b><br />
+               ADD EXAM<br />
+               HOME<br />
+            </td>
+				
+            <td bgcolor = "#b5dcb3" height = "200" width = "60%">
+		<form method ="post" action = "examselection.php">
+                <center>
+		<h4>SELECT YOUR EXAM</h4><br>
+		YOUR NAME : <input type ="text" name ="name"><br>
+		SELECT EXAM : <select name="exam">
+    				<option value="upsc">UPSC</option>
+    				<option value="bank">BANK</option>
+   				<option value="ssc">SSC</option>
+  			    </select><br>
+		RATE YOUR KNOWLEDGE : <input tupe="" placeholder="percentage" name=""><br>
+  		<input type="submit" value="Submit"></center>
+	        </form>
+            </td>
+				
+            <td bgcolor = "#aaa" width = "20%">
+		<form align="right" method="post" action="log_out.php">
+             	 <input  type="submit" name="submit" value="log out">
+ 		</form>
+            </td>
+         </tr>
+         
+      <table>
+   </body>
+
+</html>
